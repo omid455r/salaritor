@@ -1,0 +1,39 @@
+{
+  "name": "ayzanet/salaritor",
+  "description": "PHP library to calculate monthly salary of employees",
+  "homepage": "https://github.com/ayzanet/salaritor",
+  "license": "MIT",
+  "keywords": [
+    "salary",
+    "jalali",
+    "income",
+    "accounting",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Alireza Dana",
+      "email": "pixelitir@gmail.com",
+      "homepage": "https://github.com/ayzanet",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "phpoffice/phpspreadsheet": "^1.12",
+    "morilog/jalali": "^3.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ayzanet\\Salaritor\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ayzanet\\Salaritor\\Tests\\": "tests/"
+    }
+  }
+}
